@@ -1,0 +1,176 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.blu{
+  background-color: #0c325a;
+  height: 400px;
+}
+
+.grigio{
+  background-color: #d3d3d3;
+  height: 100px;
+}
+
+.bianco{
+  background-color: white;
+  height: 400px;
+}
+
+.container {
+  width: 98%;
+  max-width: 1800px;
+  margin: 0 auto;
+  height: 100%;
+  border: 0.1px solid #0c325a;
+}
+
+#login{
+  color: white;
+  border-radius: 5px;
+  background-color:#0c325a;
+  border: 1px solid white;
+  height: 30px;
+  margin: 0 10px;
+  line-height: 1.25;
+}
+
+#piano{
+  background-color: #7fb802;
+  border-radius: 5px;
+  border: 1px solid white;
+  height: 30px;
+  line-height: 1.25;
+  color: white;
+}
+.banner{
+  background-image: url(https://cdn.fluentify.com/bundles/fluentifypublic/images/r4b/01/oldman.png);
+  background-size: cover;
+  background-position:top,right;
+}
+
+
+nav{
+  height: 70px;
+  background-color: #0c325a;
+
+
+}
+
+#logo{
+  height:40px;
+  width: 90px;
+  vertical-align: middle;
+}
+
+ul li{
+  display: inline-block;
+  color: white;
+  text-align: center;
+  margin-left: 20px;
+}
+
+h1{
+  text-align: center;
+  color: white;
+  margin-bottom: .5rem;
+  font-family: inherit;
+  font-weight: 500;
+  margin-top: 40px;
+}
+
+#piano2{
+  background-color: #7fb802;
+    font-size: 12px;
+    font-weight: 700;
+    height: 44px;
+    min-width: 182px;
+    letter-spacing: .0182em;
+    color: white;
+    margin-left: 50%;
+    border-radius: 5%;
+    transform: translate(-50%);
+    text-transform: uppercase;
+
+}
+
+.banner{
+  height: 330px;
+}
+
+.bannertext{
+  width: 50%;
+  height: 100%;
+
+  transform: translate(-50% -50%);
+}
+
+h3{
+  font-family: inherit;
+  text-align: center;
+  margin-top: 20px;
+}
+
+p{
+  font-family: inherit;
+  text-align: center;
+  margin-top: 10px;
+  color: #999
+}
+
+.box {
+  width: 33.3333%;
+  height: 100%;
+  float: left;
+}
+
+#foto3{
+  height: 50%;
+  width: 50%;
+  margin-left: 20%;
+  margin-top: 10px;
+}
+
+h6{
+  color: green;
+  font-size: 130%;
+  text-align: center;
+}
+
+#foto4{
+  height: 50%;
+  width: 50%;
+  margin-left: 20%;
+  margin-top: 14px;
+}
+
+#foto5{
+  height: 50%;
+  width: 50%;
+  margin-left: 20%;
+  margin-top: 10px;
+}
+.bottonfix{
+display: block;
+position: fixed;
+background-color: rgb(123, 188, 0);
+font-family: proxima-nova, Arial, sans-serif;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+cursor: pointer;
+padding: 8px 10px 21px;
+z-index: 100000;
+bottom: -16px;
+right: 200px;
+}
+#help {
+  color: white;
+}
